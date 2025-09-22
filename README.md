@@ -6,7 +6,7 @@ A comprehensive HR management system built with Next.js, TypeScript, Tailwind CS
 
 - **Frontend**: Next.js 14, TypeScript, Tailwind CSS
 - **Backend**: Supabase (PostgreSQL, Auth, Storage)
-- **ORM**: Prisma
+- **Database**: Supabase Client with TypeScript support
 - **UI Components**: Custom components with Radix UI primitives
 - **Forms**: React Hook Form with Zod validation
 - **State Management**: TanStack Query
@@ -24,11 +24,7 @@ A comprehensive HR management system built with Next.js, TypeScript, Tailwind CS
    ```
    Fill in your Supabase credentials and database URL.
 
-3. **Set up the database**:
-   ```bash
-   npm run db:generate
-   npm run db:push
-   ```
+3. **Database is ready**: Tables are managed via Supabase dashboard and MCP
 
 4. **Run the development server**:
    ```bash
@@ -39,9 +35,9 @@ A comprehensive HR management system built with Next.js, TypeScript, Tailwind CS
 
 ## Development
 
-- **Database**: `npm run db:studio` - Open Prisma Studio
 - **Linting**: `npm run lint` - Run ESLint
 - **Build**: `npm run build` - Build for production
+- **Database**: Managed via Supabase Dashboard
 
 ## Project Structure
 
